@@ -2,8 +2,8 @@ cask "epigrapho" do
   arch arm: "arm64", intel: "x64"
 
   version "3.4.8"
-  sha256 arm:   "c838e3bbc31d7150ee4e27c37c61b7451adb6aeca0e969e2f9c6764ad4b5a541",
-         intel: "42491a863d2351ca3bbe6b054cf6682429d7515e4d6f4c611eeb3481f86a656a"
+  sha256 arm:   "062fdf2fbc8499232416418e776f294319712f5726d4296fc753088cd28c2d80",
+         intel: "8eeb3b8edeca55e28887883f56ee881d0c2acec3c45eac2e51be27e04387a2ee"
 
   # The files on SourceForge keep one name across releases, so the checksums
   # change with each upload and are updated here with it (see README).
