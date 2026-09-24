@@ -7,8 +7,7 @@ cask "epigrapho" do
 
   # The files on SourceForge keep one name across releases, so the checksums
   # change with each upload and are updated here with it (see README).
-  url "https://downloads.sourceforge.net/epigrapho/epigrapho_mac_#{arch}.zip",
-      verified: "downloads.sourceforge.net/epigrapho/"
+  url "https://downloads.sourceforge.net/epigrapho/epigrapho_mac_#{arch}.zip"
   name "Epigrapho"
   desc "Private notes that understand Bible references"
   homepage "https://github.com/teamazteya/epigrapho"
