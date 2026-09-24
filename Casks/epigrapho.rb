@@ -12,7 +12,7 @@ cask "epigrapho" do
   desc "Private notes that understand Bible references"
   homepage "https://github.com/teamazteya/epigrapho"
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Epigrapho.app"
 
