@@ -5,8 +5,10 @@ cask "epigrapho" do
   sha256 arm:   "c838e3bbc31d7150ee4e27c37c61b7451adb6aeca0e969e2f9c6764ad4b5a541",
          intel: "42491a863d2351ca3bbe6b054cf6682429d7515e4d6f4c611eeb3481f86a656a"
 
-  url "https://sourceforge.net/projects/epigrapho/files/epigrapho_mac_#{arch}.zip/download",
-      verified: "sourceforge.net/projects/epigrapho/"
+  # The files on SourceForge keep one name across releases, so the checksums
+  # change with each upload and are updated here with it (see README).
+  url "https://downloads.sourceforge.net/epigrapho/epigrapho_mac_#{arch}.zip",
+      verified: "downloads.sourceforge.net/epigrapho/"
   name "Epigrapho"
   desc "Private notes that understand Bible references"
   homepage "https://github.com/teamazteya/epigrapho"
