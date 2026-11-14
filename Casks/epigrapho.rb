@@ -1,9 +1,9 @@
 cask "epigrapho" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.6.1"
-  sha256 arm:   "731411c74b826f3564239bb8439d3a1e1c12b838eb7577c957e1fa7887ed20a9",
-         intel: "05b82c11625faa0aa7c638d032194d15abe9b309584f6a373edb636868feb9f7"
+  version "1.7.0"
+  sha256 arm:   "a78115733e492d2d030ec62e97c6a2823f18421057721204f1cc675cca42cef6",
+         intel: "cde7d35b6a7f6cb0d5d88b6a6f1724726376227593f9d1b1d096409c0a7e7a21"
 
   # Each version is a GitHub release of teamazteya/epigrapho. After tagging
   # a new one, set its version and the sha256 of both zips here.
